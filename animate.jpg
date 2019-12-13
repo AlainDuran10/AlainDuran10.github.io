@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+    <style>
+	#div{
+	  background:#green;
+	  height:100px;
+	  position:
+	  }
+	</style>
+  <body>
+  <button>start animation</button>
+  <div id="div"></div>
+ </body>
+ </html>

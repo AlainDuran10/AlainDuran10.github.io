@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> what can JavaScript Do? </h2>
+
+<p>JavaScript can change HTML attribute values. </p>
+
+- <button type="button" onclick="InnerHTML()">
+click me to display text</button>
+
+-<!-- <button type="button" onclick="editSize()">
+click me to change font size</button> -->
+
+<p id="hola" onmouseover="edithSize()" onmouseout="editSize2()"></p>
+</body>
+<script>
+function InnerHTML(){
+document.getElementById('hola').innerHTML = "JavaScript can change the style of an HTML element";
+}
+function edithSize(){
+document.getElementById('hola').style.fontSize='35px';
+document.getElementById('hola').style.color='red';
+document.getElementById('hola').style.fontFamily='snap itc';
+}
+
+function editSize2(){
+document.getElementById('hola').style.fontSize='15px';
+document.getElementById('hola').style.color='green';
+document.getElementById('hola').style.fontFamily='Arial';
+}
+</script>
+</html>

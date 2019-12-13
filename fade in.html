@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+	#div1{
+	widht:80px;
+	height:80px;
+	display:none;
+	background-color: red;
+	}
+	#div2{
+	widht:80px;
+	height:80px;
+	display:none;
+	background-color: green;
+	}
+	#div3{
+	widht:80px;
+	height:80px;
+	display:none;
+	background-color: blue;
+	}
+	</style>
+</head>
+<body>
+   <h1>fade in with different parameters</h1>
+   <button>click me to fade in boxers</button>
+   <br>
+   <div id="div1"></div>
+   <br>
+   <div id="div2"></div>
+   <br>
+   <div id="div3"></div>
+   <br>
+   <script>
+     $(document).ready(function(){
+	 $('button').click(function(){
+	 $('#div1').fadeIn();
+	  $('#div2').fadeIn("slow");
+	   $('#div3').fadeIn(3000);
+	   });
+	   });
+	   </script>
+	   </body>
+	   </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+	#div{
+	  background-color:green;
+	  height:100px;
+	  width:100px;
+	  position:absolute;
+	  }
+	</style>
+</head>
+  <body>
+   
+	<button id="l">left</button>
+	<button id="r">right</button>
+	<button id="u">up</button>
+	<button id="d">down</button>
+     <div id="div"></div>
+	 
+     <script>
+	  $(document).ready(function(){
+	   $("#r").click(function(){
+	     $("#div").animate(
+		 {left: '50px'});
+		  });
+		  
+	   $("#l").click(function(){
+	     $("#div").animate(
+		 {left: '-50px'});
+		  });
+		 
+	   $("#u").click(function(){
+	     $("#div").animate(
+		 {top: '-50px'});
+		  });
+		
+	   $("#d").click(function(){
+	     $("#div").animate(
+		 {top: '50px'});
+		  });
+		 });
+		
+     </script>
+ </body>
+ </html>

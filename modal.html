@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Modal Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+	<h2>animales</h2>
+			<!-- 
+			<div class="row">
+				<div id="div1" class="col-sm-4"><img src="pooh.jpg"/></div>         
+				<div id="div2" class="col-sm-4"><img src="pooh.jpg"/></div>        
+				<div id="div3" class="col-sm-4"><img src="pooh.jpg"/></div>         
+			</div>
+			
+			<div class="row">
+				<div id="div4" class="col-sm-4"><img src="pooh.jpg"/></div>      
+				<div id="div5" class="col-sm-4"><img src="pooh.jpg"/></div>        
+				<div id="div6" class="col-sm-4"><img src="pooh.jpg"/></div>       
+			</div>
+			!-->
+				
+	<div class="row">
+	
+			<!-- boton 1 !-->
+			<div class="col-sm-4">
+				<img src="jaguar.jpg" data-toggle="modal" data-target="#myModal1" />
+				
+			</div> 
+			<!-- boton 2 !-->
+			<div class="col-sm-4">
+				<img src="aguila.jpg" data-toggle="modal" data-target="#myModal2"/>
+			</div>
+			<div class="col-sm-4">
+				<img src="lobo.jpg" data-toggle="modal" data-target="#myModal3"/>
+			</div>  
+			
+			<div class="modal fade" id="myModal1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> </div>
+						<h2>Foto 1</h2>
+					<div class="modal-body"> </div>
+						<p>jaguar</p>
+					<div class="modal-footer"> </diV>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+				</div>
+			</div>
+			</div>
+			
+			  
+			<div class="modal fade" id="myModal2" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> </div>
+						<h2>Foto 2</h2>
+					<div class="modal-body"> </div>
+						<p>aguila</p>
+					<div class="modal-footer"> </diV>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+				</div>
+			</div>
+			</div>
+		
+			<!-- boton 3 !-->
+		
+			<div class="modal fade" id="myModal3" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> </div>
+						<h2>Foto 3</h2>
+					<div class="modal-body"> </div>
+						<p>lobo</p>
+					<div class="modal-footer"> </diV>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+				</div>
+			</div>
+			</div>
+	</div>
+	<div class="row">
+			<!-- boton 4 !-->
+			<div class="col-sm-4"><img src="hiena.jpg" data-toggle="modal" data-target="#myModal4"/></div>  
+			<div class="modal fade" id="myModal4" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> </div>
+						<h2>Foto 4</h2>
+					<div class="modal-body"> </div>
+						<p>hiena</p>
+					<div class="modal-footer"> </diV>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+				</div>
+			</div>
+			</div>
+			
+			
+			<!-- boton 5 !-->
+			<div class="col-sm-4"><img src="leopardo.png" data-toggle="modal" data-target="#myModal5"/></div>  
+			<div class="modal fade" id="myModal5" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> </div>
+						<h2>Foto 5</h2>
+					<div class="modal-body"> </div>
+						<p>leopardo</p>
+					<div class="modal-footer"> </diV>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+				</div>
+			</div>
+			</div>
+			
+			
+			
+			<!-- boton 6 !-->
+			<div class="col-sm-4"><img src="zebra.jpg" data-toggle="modal" data-target="#myModal6"/></div>  
+			<div class="modal fade" id="myModal6" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> </div>
+						<h2>Foto 6</h2>
+					<div class="modal-body"> </div>
+						<p>zebra</p>
+					<div class="modal-footer"> </diV>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+				</div>
+			</div>
+			</div>
+	</div>
+	</div>
+</body>
+</html>
